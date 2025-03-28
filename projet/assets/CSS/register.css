@@ -1,0 +1,46 @@
+.register_body { 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.register_container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+input { 
+    width: 100%;
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button { 
+    width: 100%; 
+    padding: 10px; 
+    background:rgb(22, 82, 186); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background:rgb(89, 93, 206); 
+}
+
+.error-message{
+    color: red;
+}
+.validation{
+    color: green;
+}
