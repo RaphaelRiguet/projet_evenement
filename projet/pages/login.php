@@ -8,7 +8,7 @@ include_once '../includes/header.php';
 <div class="login-container">
     <!-- Formulaire de connexion utilisateur -->
     <div class="login-box">
-        <h3>Connexion Utilisateur</h3>
+        <h3>Se connecter</h3>
         <form method="POST" action="">
             <input type="email" name="email" placeholder="Votre mail" required>
             <br>
